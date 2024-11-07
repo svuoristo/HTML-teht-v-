@@ -1,0 +1,100 @@
+body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: floralwhite;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 0;
+}
+
+.main-part {
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), floralwhite),
+    url(images/taivas.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+h1, h2 {
+    margin-bottom: 40px; /* Add more space below headers */
+}
+
+.resize-product-image {
+    width: 100%;
+    height: auto;
+}
+
+.resize-wide-image {
+    width: 97%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.resize-logo {
+    width: 8%;
+    height: auto;
+}
+
+nav a {
+    color: #4b4b4b;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ffe5e9;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 5%;
+    margin: 0 auto;
+}
+
+li {
+    background-color: bisque;
+    display: block;
+    width: calc((100% - 16%) / 3);
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+
+nav, header, section, h1 {
+    margin: 0;
+    padding: 0;
+}
